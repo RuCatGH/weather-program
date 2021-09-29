@@ -1,0 +1,55 @@
+body {
+    background: #6441A5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.location {
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 150px 15px 150px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-size: 15px;
+    width: 500px;
+}
+
+.location::placeholder {
+    color: white;
+}
+
+.location:focus {
+    outline: none;
+}
+
+.but {
+    background: #D38312;
+    /* fallback for old browsers */
+    background: no-repeat -webkit-linear-gradient(to right, #A83279, #D38312);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: no-repeat linear-gradient(to right, #A83279, #D38312);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white !important;
+    border-radius: 30px !important;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px !important;
+}
+
+.but:focus {
+    outline: none;
+}
+
+.but:hover {
+    opacity: .8;
+}
+
+.info {
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
